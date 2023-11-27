@@ -13,11 +13,11 @@ public class Main2 {
         System.out.println("Terza stringa: " + thirdStr);
 
         //unisco le stringhe//
-        String firstOrder = firstStr + secondStr + thirdStr;
+        String firstOrder = concatStrings(firstStr, secondStr, thirdStr);
         System.out.println("Concatenazione in ordine di inserimento: " + firstOrder);
 
         //mescolo le stringhe//
-        String secondOrder = thirdStr + firstStr + secondStr;
+        String secondOrder = concatStrings(thirdStr, firstStr, secondStr);
         System.out.println("Concatenazione non ordinata: " + secondOrder);
 
         input.close();
